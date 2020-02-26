@@ -289,7 +289,10 @@ public class MainController{
 					}
 
 					case 2 :{
-						System.out.println("Enter the Screen"); 
+						System.out.println("Enter screen name from given options"); 
+						System.out.println("Screen 1");
+						System.out.println("Screen 2");
+						System.out.println("Screen 3");
 						String screen = scanner.next();
 						theatre.searchScreen(screen);
 						break;

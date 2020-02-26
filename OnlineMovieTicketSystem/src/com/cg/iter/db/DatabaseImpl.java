@@ -12,7 +12,7 @@ import com.cg.iter.bean.Theatre;
 
 public class DatabaseImpl{
 
-	private DatabaseImpl() {
+	DatabaseImpl() {
 		throw new IllegalStateException("Utility class");
 	}
 
@@ -50,11 +50,11 @@ public class DatabaseImpl{
 	public static List<Theatre> getListOfTheatres(List<Movie> movies, List<Screen> listOfScreens) {
 		List<Theatre> listOfTheatres = new ArrayList<Theatre>();
 
-		listOfTheatres.add(new Theatre(2001, "PVR Cinemas", "Delhi", addMoviesToTheatre(movies, 10),
+		listOfTheatres.add(new Theatre(2001, "PVR Cinemas", "Cuttack", addMoviesToTheatre(movies, 10),
 				addScreenToTheatre(listOfScreens, 2001, 2), "Aditya Singh", "9876543210"));
-		listOfTheatres.add(new Theatre(2002, "Cinepolis Cinemas", "Noida", addMoviesToTheatre(movies, 10),
+		listOfTheatres.add(new Theatre(2002, "Cinepolis Cinemas", "Bhubaneshwar", addMoviesToTheatre(movies, 10),
 				addScreenToTheatre(listOfScreens, 2002, 2), "Mohd. Ikram", "8876543210"));
-		listOfTheatres.add(new Theatre(2003, "INOX Cinemas", "Greater Noida", addMoviesToTheatre(movies, 10),
+		listOfTheatres.add(new Theatre(2003, "INOX Cinemas", "BapujiNagar", addMoviesToTheatre(movies, 10),
 				addScreenToTheatre(listOfScreens, 2003, 3), "Divyansh Singh", "7876543210"));
 		return listOfTheatres;
 	}

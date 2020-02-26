@@ -18,3 +18,5 @@
 26 Feb 2020 12:30:51,967 INFO main com.cg.Booking - Payment Done of: 240.0 Booking ID: 73365283 Transaction ID: 81177790
 26 Feb 2020 14:47:01,865 INFO main com.cg.iter.Booking - Payment Done of: 240.0 Booking ID: 13586118 Transaction ID: 84040799
 26 Feb 2020 15:39:58,678 INFO main com.cg.iter.bean.Booking - Payment Done of: 240.0 Booking ID: 35104202 Transaction ID: 56579027
+26 Feb 2020 16:51:36,819 INFO main com.cg.iter.bean.Booking - Payment Done of: 3000.0 Booking ID: 54533510 Transaction ID: 59802678
+26 Feb 2020 16:55:16,578 INFO main com.cg.iter.bean.Booking - Payment Done of: 3000.0 Booking ID: 65832066 Transaction ID: 37928193
